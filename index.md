@@ -8,18 +8,18 @@ hero:
   tagline: "How to start with the SAP Cloud Application Programming Model"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Getting Started
+      link: /start-here
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Going Deeper
+      link: /going-deeper
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Simply Start
+    details: What is holding you back? Get started and learn as you go. 
+  - title: Going Deeper
+    details: Getting beyond Hello World
+  - title: To Infinity and Beyond
+    details: Deploying to the Cloud and Exploring the Edge Cases
 ---
 
