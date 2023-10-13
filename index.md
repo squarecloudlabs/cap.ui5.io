@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: Getting Started
       link: /start-here
+    - theme: brand
+      text: Acronym Blaster
+      link: /glossary
     - theme: alt
       text: Going Deeper
       link: /going-deeper
