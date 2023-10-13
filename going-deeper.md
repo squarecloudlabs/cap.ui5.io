@@ -2,48 +2,9 @@
 outline: deep
 ---
 
-# Runtime API Examples
+# Getting Deeper
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+For some of you this is not your first crack at deploying something to the cloud. Perhaps you have come from some other experience like php, ruby, python or even ABAP. Maybe you are experienced with the AWS CLI or Terraform or Jenkins. 
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+In this section we will try and map your knowledge to how it works in CAP Land. 
 
-```md
-<script setup>
-import { useData } from 'vitepress'
-
-const { theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
